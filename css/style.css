@@ -1,0 +1,28 @@
+.main {
+  background-color: aqua;
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  border: 3px solid black;
+}
+
+.div2 {
+  display: inline-block;
+  animation: para 10s linear infinite;
+}
+
+.div2 p {
+  display: inline-block;
+  margin: 0;
+  padding: 0 100%;
+}
+
+@keyframes para {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
